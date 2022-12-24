@@ -11,9 +11,12 @@
     <Folder Include="Authorization%28Bounded Context%29%28generic subdomain%29%28Anemic Domain Model%29\Entities\" />
     <Folder Include="Membership%28Bounded Context%29%28supporting subdomain%29%28Anemic Domain Model%29\Data\" />
     <Folder Include="Membership%28Bounded Context%29%28supporting subdomain%29%28Anemic Domain Model%29\Entities\" />
-    <Folder Include="Workspace%28Bounded Context%29%28core domain%29%28Rich Domain Modeling%29\Boards%28Aggregate%29\" />
-    <Folder Include="Workspace%28Bounded Context%29%28core domain%29%28Rich Domain Modeling%29\Tasks%28Aggregate%29\" />
-    <Folder Include="Workspace%28Bounded Context%29%28core domain%29%28Rich Domain Modeling%29\Owners%28Aggregate%29\" />
+    <Folder Include="Workspace%28Bounded Context%29%28core domain%29%28Rich Domain Modeling%29\Boards%28Aggregate%29\ValueObjects\" />
+    <Folder Include="Workspace%28Bounded Context%29%28core domain%29%28Rich Domain Modeling%29\Tasks%28Aggregate%29\ValueObjects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Core\Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>
